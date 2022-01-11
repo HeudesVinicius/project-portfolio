@@ -15,6 +15,7 @@ body{
     background-color: #131111;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 /* ------- Start of section general styles of header */
 .nav-list a{
