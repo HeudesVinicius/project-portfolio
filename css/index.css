@@ -646,13 +646,13 @@ footer{
     .area-message{
         width: 65vw;
     }
+    .more-about{
+        width: 80%;
+    }
     .form-content input{
         width: 65vw;
     }
     .socialmedia-logo img{
         width: 14px;
-    }
-    .more-about{
-        width: 80%;
     }
 }
