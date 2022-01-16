@@ -14,15 +14,13 @@
 
 <body>
     <!-- Start Cabeçalho-->
-    <header id="header" data-aos="fade-up">
-        <nav class="header">
-          <a class="logo" href="html/index.html"><span>{</span>H<span>)</span>VINICIUS</a>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
+    <header id="header">
+        <a id="logo" href=""><span>(</span>H<span>}</span>VINICIUS</a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
             <li><a href="#aboutme">ABOUT ME</a></li>
             <li><a href="#skills">SKILLS</a></li>
             <li><a href="#projects">PROJECTS</a></li>
@@ -299,7 +297,7 @@
           duration: 1500,
       });
     </script>
-    <script src="/js/mobile-navbar.js"></script>
+    <script src="/js/script.js"></script>
         <!-- End Library JS Transitions -->
 </body>
 
