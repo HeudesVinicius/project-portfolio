@@ -24,7 +24,6 @@ body,ul {
 header a{
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
 }
 ul a{
     font-size: 1.2rem;
@@ -39,6 +38,7 @@ ul a:hover {
 #logo {
   font-size: 1.8rem;
   font-weight: bold;
+  letter-spacing: 0.1rem;
 }
 #header {
   box-sizing: border-box;
@@ -122,6 +122,22 @@ ul a:hover {
   }
 }
 /* ------- End of section general styles of header */
+
+/* ------- Start of section general styles of header-about and thanks */
+.header-about{
+    display: flex;
+    justify-content: center;
+    background-color: #292929;
+}
+.header .logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.header{
+    margin: 1.8rem 0;
+}
+/* ------- End of section general styles of header-about and thanks */
 
 /* ------- Start of section general styles of principal and social media */
 .principal{
