@@ -443,6 +443,13 @@ div.skills .skill-psd:hover{
 .btn-projects:hover{
     background-color: #08fdd8;
 }
+#obs{
+    font-size: 1.2rem;
+}
+#obs span{
+    font-size: 1.4rem;
+    color: #08fdd8;
+}
 /* ------- End of Section General styles Projects */
 
 /* ------- Start of Section General styles of contact */
