@@ -352,6 +352,7 @@ div.skills .skill-psd:hover{
     height: 300px;
     margin: 15px;
     overflow: hidden;
+    box-shadow: 8px 5px 5px rgb(0, 0, 0);
 }
 .cards-projects .card .imgProject, .cards-projects .card .content{
     position: absolute;
